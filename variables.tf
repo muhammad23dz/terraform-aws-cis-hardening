@@ -9,10 +9,9 @@ variable "password_min_length" {
   default     = 14
 }
 
-variable "kms_key_arn" {
-  description = "Optional KMS Key ARN for CloudTrail encryption."
+variable "alert_email" {
+  description = "Email address to receive security alerts."
   type        = string
-  default     = null
 }
 
 variable "tags" {

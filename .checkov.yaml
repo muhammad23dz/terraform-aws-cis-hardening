@@ -1,0 +1,6 @@
+checkov:
+  soft-fail: false
+  quiet: true
+  no-guide: true
+  output: cli
+  download-external-modules: true
